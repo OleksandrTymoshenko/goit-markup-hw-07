@@ -1,0 +1,36 @@
+.header-logo {
+    display: flex;
+    margin-right: 93px;
+  }
+  
+  .header-logo {
+    color: var(--black-text-color);
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition: color var(--animation-duration-hw-05) var(--bezier-hw-05);
+  }
+  .header-logo:hover,
+  .header-logo:focus {
+    color: var(--accent-color);
+  }
+  
+  .web {
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+  
+  .web {
+    display: flex;
+  }
+    
