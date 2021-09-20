@@ -670,6 +670,12 @@ img {
   justify-content: center;
 }
 
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: var(--secondary-bgc);
+}
+
 .team {
   display: flex;
   margin-top: 50px;
