@@ -177,7 +177,7 @@ img {
   outline: none;
 }
 
-.footer-subscribe-text {
+.footer-subscribe__text {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -232,7 +232,7 @@ img {
   margin-right: 93px;
 }
 
-.footerjoin-text {
+.container-join__text {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -245,13 +245,13 @@ img {
   display: flex;
 }
 
-.footer-socialitem {
+.footer-socialbar__item {
   margin-right: 10px;
   width: 44px;
   height: 44px;
 }
 
-.footer-sociallink {
+.footer-socialbar__link {
   display: flex;
   width: 100%;
   height: 100%;
@@ -262,12 +262,12 @@ img {
   transition: background-color var(--animation-duration-hw-05) var(--bezier-hw-05), fill var(--animation-duration-hw-05) var(--bezier-hw-05);
 }
 
-.footer-sociallink:hover, .footer-sociallink:focus {
+.footer-socialbar__link:hover, .footer-socialbar__link:focus {
   background-color: var(--accent-color);
   fill: var(--white-bgc-text-color);
 }
 
-.icon-join {
+.footer-socialbar__icon {
   fill: var(--white-bgc-text-color);
 }
 
@@ -275,30 +275,22 @@ img {
   transition: border var(--animation-duration-hw-05) var(--bezier-hw-05);
 }
 
-.checkbox:checked + .check-label .icon-check {
+.checkbox:checked + .checkbox-field__label .checkbox-field__check {
   background: var(--accent-color);
   border: transparent;
   transition: background-color var(--animation-duration-hw-05) var(--bezier-hw-05);
 }
 
-.checkbox-label {
+.checkbox-field__label {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.check-label {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
   justify-content: center;
+  margin-bottom: 30px;
   text-align: center;
   cursor: pointer;
 }
 
-.icon-check {
+.checkbox-field__check {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -310,23 +302,23 @@ img {
   fill: var(--white-bgc-text-color);
 }
 
-.checkbox-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.checkbox-field__text {
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  font-family: Roboto;
+  font-style: normal;
   color: var(--primary-text-color);
 }
 
-.checkbox-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.checkbox-field__link {
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  font-family: Roboto;
+  font-style: normal;
   color: var(--accent-color);
 }
 
@@ -336,10 +328,10 @@ img {
 }
 
 .section__title {
-  font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.03em;
   line-height: 1.16;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 50px;
@@ -633,9 +625,9 @@ img {
 }
 
 .features-list__text {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -715,21 +707,21 @@ img {
   padding-top: 10px;
 }
 
-.clients-list {
+.clients {
   display: flex;
   margin-top: 50px;
 }
 
-.clients-item {
+.clients__item {
   width: 170px;
   height: 92px;
 }
 
-.clients-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.client-link {
+.client__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -744,11 +736,11 @@ img {
   transition: color var(--animation-duration-hw-05) var(--bezier-hw-05);
 }
 
-.client-link:hover, .client-link:focus {
+.client__link:hover, .client__link:focus {
   color: var(--accent-color);
 }
 
-.icon-client {
+.client__logo {
   fill: currentColor;
 }
 
@@ -787,9 +779,9 @@ img {
 .address {
   color: var(--white-bgc-text-color);
   background-color: var(--hero-footer-bgc);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
@@ -808,9 +800,9 @@ img {
 
 .footer-mail {
   color: var(--footer-phone-mail-text);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
@@ -824,9 +816,10 @@ img {
 
 .footer-tel {
   color: var(--footer-phone-mail-text);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
   transition: color var(--animation-duration-hw-05) var(--bezier-hw-05);
@@ -865,7 +858,7 @@ img {
   padding: 40px;
 }
 
-.modal-button {
+.modal__button {
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -877,23 +870,23 @@ img {
   transition: color var(--animation-duration-hw-05) var(--bezier-hw-05), fill var(--animation-duration-hw-05) var(--bezier-hw-05);
 }
 
-.modal-button:focus .close-icon,
-.modal-button:hover .close-icon {
+.modal__button:focus .modal__close-icon,
+.modal__button:hover .modal__close-icon {
   fill: var(--accent-color);
 }
 
-.close-icon {
+.modal__close-icon {
   transition: fill var(--animation-duration-hw-05) var(--bezier-hw-05), fill var(--animation-duration-hw-05) var(--bezier-hw-05);
 }
 
-.field-form {
+.form {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 448px;
 }
 
-.field-form-title {
+.form__title {
   margin-top: 2px;
   margin-bottom: 15px;
   font-family: Roboto;
