@@ -6,10 +6,9 @@
   .clients-item {
     width: 170px;
     height: 92px;
-  }
-  
-  .clients-item:not(:last-child) {
-    margin-right: 30px;
+        &:not(:last-child) {
+        margin-right: 30px;
+      }
   }
   
   .client-link {
@@ -25,13 +24,12 @@
     border-color: focus var(--accent-color);
     color: var(--icon-normal-color);
     transition: color var(--animation-duration-hw-05) var(--bezier-hw-05);
+      &:hover,
+      &:focus {
+      color: var(--accent-color);
+    }
   }
   
   .icon-client {
     fill: currentColor;
-  }
-  
-  .client-link:hover,
-  .client-link:focus {
-    color: var(--accent-color);
   }

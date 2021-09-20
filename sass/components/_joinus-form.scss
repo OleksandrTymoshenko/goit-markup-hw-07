@@ -32,14 +32,15 @@
     border-radius: 50%;
     background-color: var(--footer-social-bgc);
     transition: background-color var(--animation-duration-hw-05) var(--bezier-hw-05), fill var(--animation-duration-hw-05) var(--bezier-hw-05);
+      &:hover,
+      &:focus {
+        background-color: var(--accent-color);
+        fill: var(--white-bgc-text-color);
+      }
   }
   
   .icon-join {
     fill: var(--white-bgc-text-color);
   }
   
-  .footer-sociallink:hover,
-  .footer-sociallink:focus {
-    background-color: var(--accent-color);
-    fill: var(--white-bgc-text-color);
-  }
+  

@@ -61,6 +61,11 @@
     text-decoration: none;
     font-style: normal;
     transition: color var(--animation-duration-hw-05) var(--bezier-hw-05);
+      &:hover,
+      &:focus {
+      color: var(--accent-color);
+      background-color: var(--hero-footer-bgc);
+    }
   }
   
   .footer-tel {
@@ -71,16 +76,9 @@
     text-decoration: none;
     font-style: normal;
     transition: color var(--animation-duration-hw-05) var(--bezier-hw-05);
-  }
-  
-  .footer-mail:hover,
-  .footer-mail:focus {
-    color: var(--accent-color);
-    background-color: var(--hero-footer-bgc);
-  }
-  
-  .footer-tel:hover,
-  .footer-tel:focus {
-    color: var(--accent-color);
-    background-color: var(--hero-footer-bgc);
+      &:hover,
+      &:focus {
+      color: var(--accent-color);
+      background-color: var(--hero-footer-bgc);
+    }
   }

@@ -1,57 +1,57 @@
 .checkbox {
-    transition: border var(--animation-duration-hw-05) var(--bezier-hw-05);
+  transition: border var(--animation-duration-hw-05) var(--bezier-hw-05);
+  &:checked + .check-label .icon-check {
+    background: var(--accent-color);
+    border: transparent;
+    transition: background-color var(--animation-duration-hw-05) var(--bezier-hw-05);
   }
-  
-  .checkbox-label {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .check-label {
+}
+
+.checkbox-label {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
   text-align: center;
   cursor: pointer;
-  }
+}
+
+.check-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icon-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--title-text-color);
+  border-radius: 2px;
+  width: 16px;
+  height: 15px;
+  margin-right: 5px;
+  fill: var(--white-bgc-text-color);
+}
   
-  .icon-check {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--title-text-color);
-    border-radius: 2px;
-    width: 16px;
-    height: 15px;
-    margin-right: 5px;
-    fill: var(--white-bgc-text-color);
-  }
+.checkbox-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
   
-  .checkbox:checked + .check-label .icon-check {
-    background: var(--accent-color);
-    border: transparent;
-    transition: background-color var(--animation-duration-hw-05) var(--bezier-hw-05);
-  }
-  
-  .checkbox-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-  }
-  
-  .checkbox-link {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
-  }
+.checkbox-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}

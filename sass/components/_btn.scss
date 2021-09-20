@@ -12,17 +12,44 @@
     padding: 6px 22px;
     border: 0;
     transition: background-color var(--animation-duration-hw-05) var(--bezier-hw-05), fill var(--animation-duration-hw-05) var(--bezier-hw-05);
+      &:hover,
+      &:focus {
+        color: var(--white-bgc-text-color);
+        background: var(--accent-color);
+        border-radius: 4px;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+          0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+      }
   }
-  
+    
   .button.primary {
     color: var(--white-bgc-text-color);
     background-color: var(--accent-color);
     transition: background-color var(--animation-duration-hw-05) var(--bezier-hw-05), fill var(--animation-duration-hw-05) var(--bezier-hw-05);
+      &:hover,
+      &:focus {
+        color: var(--white-bgc-text-color);
+        background: var(--accent-color);
+        border-radius: 4px;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+          0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+      }
   }
   .button.secondary {
     color: var(--title-text-color);
     background-color: var(--secondary-bgc);
     transition: background-color var(--animation-duration-hw-05) var(--bezier-hw-05), fill var(--animation-duration-hw-05) var(--bezier-hw-05);
+      &:hover,
+      &:focus {
+        color: var(--white-bgc-text-color);
+        background: var(--accent-color);
+        border-radius: 4px;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+          0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+      }
   }
   
   .button-group {
@@ -32,17 +59,6 @@
     
   }
   
-  .button:hover,
-  .button:focus {
-    color: var(--white-bgc-text-color);
-    background: var(--accent-color);
-    border-radius: 4px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    
-  }
-
   .group-item {
     display: flex;
     margin-left: 6px;
