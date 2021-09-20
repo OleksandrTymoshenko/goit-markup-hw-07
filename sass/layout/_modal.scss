@@ -26,7 +26,7 @@
     padding: 40px;
   }
   
-  .modal-button {
+  .modal__button {
     width: 30px;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -36,24 +36,24 @@
     top: 8px;
     right: 8px;
     transition: color var(--animation-duration-hw-05) var(--bezier-hw-05), fill var(--animation-duration-hw-05) var(--bezier-hw-05);
-      &:focus .close-icon,
-      &:hover .close-icon {
+      &:focus .modal__close-icon,
+      &:hover .modal__close-icon {
         fill: var(--accent-color);
     }
   }
   
-  .close-icon {
+  .modal__close-icon {
     transition: fill var(--animation-duration-hw-05) var(--bezier-hw-05), fill var(--animation-duration-hw-05) var(--bezier-hw-05);
   }
   
-  .field-form {
+  .form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 448px;
   }
   
-  .field-form-title {
+  .form__title {
     margin-top: 2px;
     margin-bottom: 15px;
     font-family: Roboto;

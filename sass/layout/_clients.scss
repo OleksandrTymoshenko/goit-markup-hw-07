@@ -1,9 +1,9 @@
-.clients-list {
+.clients {
     display: flex;
     margin-top: 50px;
   }
   
-  .clients-item {
+  .clients__item {
     width: 170px;
     height: 92px;
         &:not(:last-child) {
@@ -11,7 +11,7 @@
       }
   }
   
-  .client-link {
+  .client__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +30,6 @@
     }
   }
   
-  .icon-client {
+  .client__logo {
     fill: currentColor;
   }

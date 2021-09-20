@@ -3,10 +3,7 @@
   padding-bottom: 94px;
 }
 .section__title {
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0.03em;
-  line-height: 1.16;
+  @include section-title;
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 50px;

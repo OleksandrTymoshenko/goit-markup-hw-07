@@ -1,6 +1,13 @@
-@mixin font($fs:14, $lh:1.71, $fw:400, $ls:0.03) {
-    font-size: $fz;
-    line-height: $lh;
-    font-weight: $fw;
-    letter-spacing: $ls;
+@mixin font-normal {
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+@mixin section-title {
+    font-size: 36px;
+    line-height: 1.16;
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }

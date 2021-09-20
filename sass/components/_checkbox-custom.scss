@@ -1,30 +1,22 @@
 .checkbox {
   transition: border var(--animation-duration-hw-05) var(--bezier-hw-05);
-  &:checked + .check-label .icon-check {
+  &:checked + .checkbox-field__label .checkbox-field__check {
     background: var(--accent-color);
     border: transparent;
     transition: background-color var(--animation-duration-hw-05) var(--bezier-hw-05);
   }
 }
 
-.checkbox-label {
+.checkbox-field__label {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.check-label {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
   justify-content: center;
+  margin-bottom: 30px;
   text-align: center;
   cursor: pointer;
 }
 
-.icon-check {
+.checkbox-field__check {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,22 +28,16 @@
   fill: var(--white-bgc-text-color);
 }
   
-.checkbox-text {
+.checkbox-field__text {
+  @include font-normal;
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
   
-.checkbox-link {
+.checkbox-field__link {
+  @include font-normal;
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
